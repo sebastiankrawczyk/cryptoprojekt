@@ -11,7 +11,7 @@ response = requests.get("https://api.coingecko.com/api/v3/coins/bitcoin/history?
 # for
 print(response.json())
 print(response.json()['market_data']['current_price']['usd'])
-
+print('hello')
 # columny ktore chcemy miec
 # laduje do dataframema
 # csv
